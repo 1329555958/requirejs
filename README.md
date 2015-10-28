@@ -1,5 +1,5 @@
 # requirejs
-    <http://www.requirejs.org/>
+<http://www.requirejs.org/>
 ### 怎么对依赖分组?
 
 ### text、css 怎么依赖?
