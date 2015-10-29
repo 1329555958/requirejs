@@ -1,0 +1,26 @@
+{
+  "name": "wid",
+  "authors": [
+    "dogo <1329555958@qq.com>"
+  ],
+  "description": "requirejs",
+  "main": "app.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "requirejs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/1329555958/requirejs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.20"
+  }
+}
