@@ -7,8 +7,11 @@ console.log('come in index');
  */
 define('base2', function (require, exports, module) {
     console.log('base2 loaded');
-    exports.name='wch'; // module.exports.name = 'wch';
+    exports.name = 'wch'; // module.exports.name = 'wch';
 });
-require(['base', 'base2','base3'], function (base, base2) {
+require(['text!../../assets/js/text.html'], function (html) {
+    console.log(html);
+});
+require(['base', 'base2', 'base3'], function (base, base2) {
     console.log('index loaded', base2);
 });

@@ -69,6 +69,18 @@
 ## text、css 怎么依赖?
 
 <https://github.com/requirejs/text>
+1. 将text插件导入工程
+2. 将text.js 放在baseUrl目录下面或者在require的配置文件paths中指定
+3. 模块以text!开头,后面是完整路径(包括后缀),或者相对text.js的路径
+
+```javascript
+require(['text!/assets/js/text.html'], function (html) {
+    console.log(html);
+});
+require(['text!../../assets/js/text.html'], function (html) {
+    console.log(html);
+});
+```
 
 ## 文件合并后，配置文件不变, 可以?
 

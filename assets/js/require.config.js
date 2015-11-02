@@ -9,12 +9,13 @@ require.config({
      *不应该包含扩展名，可以配置目录
      */
     paths: {
-        "some": "some/v1.0"
+        "some": "some/v1.0",
+        text: '/bower_components/text/text'
     },
     /*配置deps、定义模块是没有指定依赖的需要配置
-    exports
-    、init等*/
-    shim:{
+     exports
+     、init等*/
+    shim: {
         'jquery.scroll': ['jquery'], //只有依赖时可用直接写数组
         'backbone': {
             deps: ['underscore', 'jquery'],
